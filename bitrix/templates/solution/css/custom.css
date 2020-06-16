@@ -1,0 +1,112 @@
+/*! Paste your custom styles here */
+
+.index-title{
+    padding-top: 160px;
+    padding-bottom: 320px;
+}
+
+.page-title__subtitle > *{
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.nav__menu>li>a{
+    padding: 0 !important;
+    margin: 0 17px;
+}
+
+.testimonial__company{
+    text-transform: none;
+}
+
+.page-title__subtitle{
+    color: black;
+}
+
+.white{
+    color: white;
+}
+
+.team__position{
+    text-transform: none;
+}
+
+.page-item .page-link{
+    border: 0px;
+    background: none;
+    color: #131313;
+    font-size: 1.2rem;
+}
+
+
+.page-item .page-link:hover{
+    background: none;
+    color: #FE5900;
+}
+.page-item.active .page-link{
+    background: none;
+    color: #FE5900;
+}
+
+.captcha {
+    width: 70%;
+    height: auto;
+}
+
+.captcha-full{
+    width: auto;
+    height: 100%;
+}
+
+.entry-navigation__col.entry-navigation__col--full-width{
+    width: 100%;
+}
+
+.entry-navigation__col.entry-navigation__col--full-width.entry-navigation--center{
+    text-align: center;
+}
+
+.nav__mobile-socials{
+    margin: 0 17px;
+}
+
+.nav__mobile-socials > .socials{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar.avatar-46.photo{
+    width: 46px;
+    height: auto;
+}
+
+.entry.single-post__entry{
+    margin-bottom: 0;
+}
+
+.entry-author{
+    margin-bottom: 100px;
+}
+
+.half-sized{
+    width: 50%;
+}
+
+.full-page{
+    padding-top: 72px;
+    padding-bottom: 72px;
+    min-height: calc(100vh - 256px);
+}
+
+@media (max-width: 1000px){
+    .half-sized{
+        width: 75%;
+    }
+}
+
+@media (max-width: 760px){
+    .half-sized{
+        width: 100%;
+    }
+}
